@@ -9,7 +9,8 @@ This extension supports printing text on I2C Character Liquid Crystal Display.
 ## Method
 ---
 Initialize
-  Always run at the beginning
+
+Always run at the beginning
 ```
 CLCD.init()
 ```
@@ -63,7 +64,7 @@ basic.forever(function () {
 ```
 
 ## License
-* MIT
+MIT
 
 ## Supported targets
 
