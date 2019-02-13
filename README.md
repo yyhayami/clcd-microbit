@@ -7,8 +7,9 @@ This extension supports printing text on I2C Character Liquid Crystal Display.
 * I2C address 0x3E
 
 ## Method
-* Initialize
-Always run at the beginning
+---
+Initialize
+  Always run at the beginning
 ```
 CLCD.init()
 ```
@@ -17,30 +18,34 @@ Contrast setting
 CLCD.setContrastr(c)
 ```
 - c:Constrast value
-* Cursor position setting
+
+Cursor position setting
 ```
 CLCD.setCursor(x, y)
 ```
  x:number Character position
  y:number Line position
-* String display
+
+String display
 ```
 CLCD.prints(s)
 ```
-   s:string Characters to show
-* Number display
+- s:string Characters to show
+Number display
 ```
 CLCD.printn(n)
 ```
- n:number Number to show
-* Decimal display
+- n:number Number to show
+
+Decimal display
 ```
 CLCD.printn2(n1, n2)
 ```
- n1:number Integer part
- n2:number Decimal part
+- n1:number Integer part
+- n2:number Decimal part
 
 ## Example
+---
 ```
 CLCD.init()
 CLCD.setContrast(35)
@@ -58,7 +63,7 @@ basic.forever(function () {
 ```
 
 ## License
-MIT
+* MIT
 
 ## Supported targets
 
