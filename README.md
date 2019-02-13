@@ -16,29 +16,29 @@ Contrast setting
 ```
 CLCD.setContrastr(c)
 ```
-- c:Constrast value
+ c:Constrast value
 * Cursor position setting
 ```
 CLCD.setCursor(x, y)
 ```
-- x:number Character position
-- y:number Line position
+ x:number Character position
+ y:number Line position
 * String display
 ```
 CLCD.prints(s)
 ```
-- s:string Characters to show
+ s:string Characters to show
 * Number display
 ```
 CLCD.printn(n)
 ```
-- n:number Number to show
+ n:number Number to show
 * Decimal display
 ```
 CLCD.printn2(n1, n2)
 ```
-- n1:number Integer part
-- n2:number Decimal part
+ n1:number Integer part
+ n2:number Decimal part
 
 ## Example
 ```
