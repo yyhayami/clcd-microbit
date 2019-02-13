@@ -16,7 +16,7 @@ Contrast setting
 ```
 CLCD.setContrastr(c)
 ```
- c:Constrast value
+- c:Constrast value
 * Cursor position setting
 ```
 CLCD.setCursor(x, y)
@@ -27,7 +27,7 @@ CLCD.setCursor(x, y)
 ```
 CLCD.prints(s)
 ```
- s:string Characters to show
+   s:string Characters to show
 * Number display
 ```
 CLCD.printn(n)
@@ -55,6 +55,8 @@ basic.forever(function () {
     CLCD.printn(input.acceleration(Dimension.Y))
     basic.pause(300)
 })
+```
+
 ## License
 MIT
 
